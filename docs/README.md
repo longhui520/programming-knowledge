@@ -1,8 +1,9 @@
 ---
 home: true
-heroText: 知识集
+heroText: 好好学习,天天向上
 tagline: 编程知识集
-actionText: 快速上手 →
+heroImage: /assets/images/logo.png
+actionText: 去学习 →
 actionLink: /main/
 footer: MIT Licensed | Copyright © 2018-present Long Hui
 ---
