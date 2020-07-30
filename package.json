@@ -24,5 +24,9 @@
   "homepage": "https://github.com/longhui520/programming-knowledge#readme",
   "devDependencies": {
     "vuepress": "^1.5.2"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "pretty": "^2.0.0"
   }
 }

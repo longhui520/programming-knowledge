@@ -1,0 +1,9 @@
+{{each groups group}}
+## {{group.groupName}}
+<div class="link-block">
+    {{each group.list item}}<a class="link-item"  href="{{item.href}}" target="_blank">
+        <p class="title">{{item.title}}</p>
+        <p class="intro">{{item.intro}}</p>
+    </a>{{/each}}
+</div>
+{{/each}}

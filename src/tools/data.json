@@ -1,0 +1,14 @@
+[
+    {
+        "groupName":"搜索网址",
+        "list":[
+            {"href":"www.baidu.com","title":"百度","intro":"测试"}
+        ]
+    },
+    {
+        "groupName":"工具包",
+        "list":[
+            {"href":"http://aui.github.io/art-template/","title":"art-template","intro":"模板引擎"}
+        ]
+    }
+]
