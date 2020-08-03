@@ -1,6 +1,6 @@
 [
   {
-    "groupName": "搜索网址1",
+    "groupName": "搜索网址",
     "list": [
       {
         "href": "http://www.baidu.com/",
@@ -25,12 +25,27 @@
     ]
   },
   {
-    "groupName": "工具包",
+    "groupName": "技术文档",
     "list": [
+      {
+        "href": "https://cn.vuejs.org/",
+        "title": "Vue",
+        "intro": "渐进式JavaScript 框架"
+      },
       {
         "href": "http://aui.github.io/art-template/",
         "title": "art-template",
         "intro": "模板引擎"
+      }
+    ]
+  },
+  {
+    "groupName":"css技巧",
+    "list":[
+      {
+        "href": "https://css-tricks.com//",
+        "title": "css tricks",
+        "intro": "关于css样式说明"
       }
     ]
   }
