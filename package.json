@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "node ./src/tools/index.js && vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "create:tools":"node ./src/tools/index.js"
+    "create:tools": "node ./src/tools/index.js"
   },
   "repository": {
     "type": "git",
