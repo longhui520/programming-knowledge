@@ -9,6 +9,18 @@ module.exports = {
         {
           text:'vue源码系列',
           link:'/article/vue/'
+        },
+        {
+          text:'webpack源码系列',
+          link:'/article/webpack/'
+        },
+        {
+          text:'web',
+          link:'/article/web/'
+        },
+        {
+          text:"前端面试",
+          link:'/article/front-interview'
         }
       ]},
       { text: 'vuepress', link: 'https://www.vuepress.cn/' }
