@@ -5,3 +5,6 @@
 - [web 安全](https://mp.weixin.qq.com/s/L55ObzF6R-3wY2T03roiUA)
 - [如何精确统计页面停留时长](https://mp.weixin.qq.com/s/DTnS0g9Dvqqkz5yOcKkABw)
 - [跨域的九种解决方案](https://juejin.im/post/6844904068939251720)
+- [如何写一个可用的前端脚手架](https://zhuanlan.zhihu.com/p/105846231)
+- [金九银十冲刺大厂，你需要知道的性能优化和手写源码](https://mp.weixin.qq.com/s/QjotYGFFrhXqcObMCvfHWg)
+- [vscode 主题设置](https://www.cnblogs.com/garvenc/p/vscode_customize_color_theme.html)
