@@ -12,3 +12,8 @@
 - [babel 使用](https://segmentfault.com/a/1190000019718925)
 - [移动 Web 最佳实践（干货长文，建议收藏）](https://mp.weixin.qq.com/s?__biz=MzUxNzk1MjQ0Ng==&mid=2247485155&idx=2&sn=d806aaabd64d84dcbe6b874fc335f77b&chksm=f9910032cee689249834a789d2be70567ce0d7738c5ebdbc21c034e33946dedce531533af170&mpshare=1&scene=1&srcid=&sharer_sharetime=1589458086415&sharer_shareid=c65ddbf569523f44545b22a63301140a&key=2e146f27629d37a383a6d24d1bfdc6b7016174535684d360392f36ce127f131cdcbe1aa7994e56b691f4662a85979ac449cfb30204be09ff7dd3d31ba57402b85724e735a8ea163774378b16181b4c4b&ascene=1&uin=MjA4MDcyMTA0MQ%3D%3D&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=A%2B7M64zfp34G5wCzv9daaHE%3D&pass_ticket=4re5LNy3VhatJEfC2FAOuZ1p7j5fC4Lz%2BIws16e517bu2%2BeuEvBK1B8OXj4PrYjZ)
 - [基于基于qiankun的微前端最佳实践](https://segmentfault.com/a/1190000022631614?utm_source=weekly&utm_medium=email&utm_campaign=SegmentFault%20%E7%B2%BE%E9%80%89%E6%AF%8F%E5%91%A8%E7%B2%BE%E9%80%89%E4%B8%A8SegmentFault%20%E6%80%9D%E5%90%A6%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%94%AF%E6%8C%81%E8%AE%A1%E5%88%92%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%8A%A9%E5%8A%9B%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%B5%B7%E9%A3%9E%E4%B8%A8%E5%9F%BA%E4%BA%8E%20qiankun%20%E7%9A%84%E5%BE%AE%E5%89%8D%E7%AB%AF%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%EF%BC%88%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87%EF%BC%89)
+- [vv 组件库建设](https://zhuanlan.zhihu.com/p/30948290)
+- [webpack模块加载机制](https://mp.weixin.qq.com/s/t20g82oJ6y4ik3Te_A56Yg)
+- [私有npm包管理](https://www.jianshu.com/p/a9540d9f8d9c)
+- [eval 作用域](https://www.cnblogs.com/52cik/p/js-eval.html)
+- [Tcp 详解](https://zhuanlan.zhihu.com/p/165497660)
