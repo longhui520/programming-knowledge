@@ -81,5 +81,17 @@ app.compose = function(){
 app.compose()
 
 ```
+## word 文件预览
+```
+ <iframe height="100%" width="100%" src="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Flonghui520%2Fprogramming-knowledge%2Fmaster%2F1.doc" frameborder="0"></iframe>
+```
+- [参考](https://github.com/fight1991/word-excel-ppt-view/blob/master/preview.vue)
+## 离开页面事件监听
+    ```js
+      window.onbeforeunload=function(e){     
+        　　var e = window.event||e;  
+        　　e.returnValue=("确定离开当前页面吗？");
+        } 
+    ```
 
 
