@@ -87,11 +87,11 @@ app.compose()
 ```
 - [参考](https://github.com/fight1991/word-excel-ppt-view/blob/master/preview.vue)
 ## 离开页面事件监听
-    ```js
-      window.onbeforeunload=function(e){     
-        　　var e = window.event||e;  
-        　　e.returnValue=("确定离开当前页面吗？");
-        } 
-    ```
+```js
+    window.onbeforeunload=function(e){     
+    　　var e = window.event||e;  
+    　　e.returnValue=("确定离开当前页面吗？");
+    } 
+```
 
 
