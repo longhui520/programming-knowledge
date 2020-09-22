@@ -36,6 +36,15 @@ sidebar: auto
 
 </div>
 
+## 技术教程
+<div class="link-block">
+  <a class="link-item" href="http://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank">
+    <p class="title">YAML 语言教程</p>
+    <p class="intro">YAML 是专门用来写配置文件的语言，非常简洁和强大，远比 JSON 格式方便</p>
+  </a>
+
+</div>
+
 ## css技巧
 <div class="link-block">
   <a class="link-item" href="https://css-tricks.com//" target="_blank">
