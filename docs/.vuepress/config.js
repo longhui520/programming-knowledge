@@ -6,6 +6,7 @@ module.exports = {
     logo: '/assets/images/logo.png',
     nav: [
       { text: '常用工具', link: '/tools/' },
+      { text: '代码片段', link: '/snippet/'},
       {
         text: '学习文章', items: [
           {
