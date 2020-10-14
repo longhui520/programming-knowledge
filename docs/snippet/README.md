@@ -154,5 +154,23 @@ function subsets(arr){
   return res
 }
 ```
+## 图片异常处理
+```js
+window.addEventListener('error',function(event){
+  const target = event.target
+  const tagName = target.tagName
+  const times = Number(target.dataset.times) || 0
+  const allTimes = 3
+  if(tagName.toUpperCase() === 'IMG'){
+    if(times >= allTimes){
+      // 空白图片
+      target.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+    }else{
+       target.dataset.times = times + 1;
+       target.src = '错误提示的url';
+    }
+  }
+})
+```
 
 
