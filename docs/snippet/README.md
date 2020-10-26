@@ -172,5 +172,62 @@ window.addEventListener('error',function(event){
   }
 })
 ```
+## 防抖与节流
+- 基础防抖
+```js
+function debounce(fn,delay){
+  let timer = null
+  return function(...args){
+    clearTimeout(timer)
+    timer = setTimeout(()=>{
+      fn.apply(this,args)
+    },delay)
+  }
+}
+```
+- 可选是否立即执行的防抖
+```js
+function debonce(fn,delay,immediate){
+  let timer = null
+  return function(...args){
+    clearTimeout(timer)
+    if(immediate){
+      const doNow = !timer
+      timer = setTimeout(()=>{timer=null},delay)
+      doNow?fn.apply(this,args):""
+    }else{
+      timer = setTimeout(()=>{
+        fn.apply(this,args)
+      })
+    }
+  }
+}
+```
+- 时间方式的节流
+```js
+function throttle(fn,delay){
+  let prev = Date.now()
+  return function(...args){
+     const now = Date.now()
+     if(now-prev>=delay){
+      fn.apply(this,args)
+      prev = Date.now()
+     }
+  }
+}
+```
+- 定时器方式的节流
+```js
+function throttle(fn,delay){
+  let timer = null
+  return function(...args){
+    if(timer){return}
+    timer = setTimeout(()=>{
+      fn.apply(this,args)
+      timer=null
+    },delay)
+  }
+}
+```
 
 
