@@ -21,9 +21,21 @@
   * [x] LRU 缓存淘汰策略
 </details>
 <details>
+  <summary>前端综合</summary>
+
+  * [x] 虚拟列表 
+  * [x] 微前端
+  * [x] 骨架屏
+  * [x] 前端监控和埋点
+  * [x] 前端安全
+  * [x] 性能优化
+  * [x] 项目亮点和难点
+</details>
+<details>
   <summary>前端工程化</summary>
 
   * [x] webpack
+  * [x] webpack性能优化
   * [x] babel
   * [x] eslint
   * [x] prettier
@@ -54,7 +66,7 @@
 <details>
   <summary>JavaScript</summary>
 
-  * [x] 数组
+  * [x] 继承
 </details>
 <details>
   <summary>React</summary>
@@ -77,7 +89,11 @@
 
   * [x] 数组
 </details>
+<details>
+  <summary>编程</summary>
 
+  * [x] 函数式编程
+</details>
 
 
 
