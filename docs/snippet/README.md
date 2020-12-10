@@ -198,7 +198,7 @@ function debonce(fn,delay,immediate){
     }else{
       timer = setTimeout(()=>{
         fn.apply(this,args)
-      })
+      },delay)
     }
   }
 }
