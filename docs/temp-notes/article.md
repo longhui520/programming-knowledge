@@ -9,3 +9,7 @@
 - [50个好用的前端框架，千万收好以留备用!](https://my.oschina.net/u/3704591/blog/4753326)
 - [前端高效开发必备的 js 库梳理](https://my.oschina.net/u/3053834/blog/4749758)
 - [状态机详解](https://my.oschina.net/u/3854492/blog/4749682)
+- [vue模版反编译](https://my.oschina.net/LuckyWinty/blog/4577846)
+- [vue模版编译](https://github.com/berwin/Blog/issues/18)
+- [vue模版编译](https://blog.csdn.net/lqyygyss/article/details/102468061)
+- [写给初中级前端的高级进阶指南](https://juejin.cn/post/6844904103504527374)
