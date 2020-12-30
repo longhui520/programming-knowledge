@@ -231,3 +231,26 @@ function throttle(fn,delay){
 ```
 
 
+
+## 模拟new
+```js
+function newFnc(fnc,...args){
+  // 1.判断是否是函数
+  if(typeof fnc !== 'function'){
+    throw new Error("第一个参数必须是函数")
+  }  
+  // 2.创建一个空对象
+  const obj = {}
+  // 3.空对象的原型指向构造函数的原型对象
+  obj.__proto__ = Object.create(fnc.prototype)
+  // 4.绑定this执行构造函数
+  const res = fnc.apply(obj,args)
+  // 5.判断返回值是否为对象
+  if(res !==null && (typeof res === 'object' || typeof res === 'function')){
+    return res
+  }else{
+    return obj
+  }
+
+}
+```

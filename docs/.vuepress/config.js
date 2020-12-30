@@ -1,5 +1,5 @@
 module.exports = {
-  title: "龙辉",
+  title: "阳光下的雨",
   description: "a collection of programming knowledge",
   base:"/programming-knowledge/",
   themeConfig: {
