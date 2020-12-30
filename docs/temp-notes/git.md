@@ -20,7 +20,7 @@ git reset HEAD [.|filename] //放弃暂存区域的内容
 git reset --hard HEAD       //放弃暂存区域和工作目录的内容
 git reset --soft commits    //head移动到某个提交，将变更放入暂存区，提交后起到合并分支目的
 ```
-- 已使用 git commit 提交代码 
+- 已使用 git commit 提交代码 ··
 ```shell
 git reset --hard HEAD^      // 放弃本次提交
 ```
@@ -29,3 +29,5 @@ git reset --hard HEAD^      // 放弃本次提交
 git revert -n commits
 ```
 - [参考文章](https://blog.csdn.net/asoar/article/details/84111841)
+## 追加修改内容到上次提交
+  - git commit  --amend --no-edit //追加到上次提交 
