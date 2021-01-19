@@ -15,3 +15,4 @@
 - [写给初中级前端的高级进阶指南](https://juejin.cn/post/6844904103504527374)
 - [页面渲染事件过程](https://www.cnblogs.com/gg-qq/p/11327972.html)
 - [es6与es5的继承区别](https://www.cnblogs.com/annika/p/9073572.html)
+- [react整体感知](https://my.oschina.net/u/4430337/blog/4877581)
