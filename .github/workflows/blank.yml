@@ -19,5 +19,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        REPOSITORY_NAME: longhui520/longhui520.github.io
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
