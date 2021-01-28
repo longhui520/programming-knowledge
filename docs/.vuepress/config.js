@@ -5,7 +5,13 @@ module.exports = {
   themeConfig: {
     logo: '/assets/images/logo.png',
     nav: [
-      { text: '前端基础', link: '/main/' },
+      { 
+        text: '前端',item:[
+          {
+            text:'前端基础',link: '/main/'
+          }
+        ]
+      },
       { text: '常用工具', link: '/tools/' },
       { text: '代码片段', link: '/snippet/'},
       {
