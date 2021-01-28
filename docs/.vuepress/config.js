@@ -6,7 +6,7 @@ module.exports = {
     logo: '/assets/images/logo.png',
     nav: [
       { 
-        text: '前端',item:[
+        text: '前端',items:[
           {
             text:'前端基础',link: '/main/'
           }
