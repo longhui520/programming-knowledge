@@ -1,7 +1,7 @@
 module.exports = {
   title: "阳光下的雨",
   description: "a collection of programming knowledge",
-  base:"/programming-knowledge/",
+  base:"/",
   themeConfig: {
     logo: '/assets/images/logo.png',
     nav: [
