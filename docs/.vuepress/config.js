@@ -9,6 +9,9 @@ module.exports = {
         text: '前端',item:[
           {
             text:'前端基础',link: '/main/'
+          },
+          {
+            text:'vue',link: '/main/vue'
           }
         ]
       },
