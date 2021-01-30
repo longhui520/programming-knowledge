@@ -32,3 +32,4 @@
 - [node 事件循环](https://blog.csdn.net/xgangzai/article/details/89647029?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
 - [mvc mvp mvvm 区别](https://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
 - [重绘与回流](https://juejin.im/post/6844903734951018504)
+- [利用 SSH 完成 Git 与 GitHub 的绑定](https://blog.csdn.net/qq_35246620/article/details/69061355)

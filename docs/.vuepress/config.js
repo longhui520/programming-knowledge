@@ -1,12 +1,12 @@
 module.exports = {
   title: "阳光下的雨",
   description: "a collection of programming knowledge",
-  base:"/programming-knowledge/",
+  base:"/",
   themeConfig: {
     logo: '/assets/images/logo.png',
     nav: [
       { 
-        text: '前端',item:[
+        text: '前端',items:[
           {
             text:'前端基础',link: '/main/'
           },
