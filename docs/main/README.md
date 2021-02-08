@@ -47,6 +47,22 @@ HTML(HyperText Markup Language)不是一门标记语言，而是一种告诉浏�
 <p>我没被注释</p>
 <!--<p>我被注释了</p>-->
 ```
+### PWA
+渐进式网络应用（PWA）是谷歌在 2015 年底提出的概念。基本上算是 Web 应用程序，但在外观和感觉上与原生 App 类似。支持 PWA 的网站可以提供脱机工作、推送通知和设备硬件访问等功能。
+- 优点
+  - 更小更快
+  - 响应式界面
+  - 无需更新
+  - 高性价比
+  - SEO优势
+  - 可离线
+  - 安全性
+  - 推送通知
+  - 不需要应用商店
+  - 不需要安装
+- 缺点
+  - 对系统功能的访问权限低
+  - 没有审核机制
 ## CSS
 ### CSS是什么
 CSS 是指层叠样式表(Cascading Style Sheets)
@@ -74,5 +90,97 @@ CSS 是指层叠样式表(Cascading Style Sheets)
 ## JavaScript
 ### JavaScript 基本类型
 number,string,boolean,null,undefined,Symbol,bigInt
+- `null` 和 `undefined` 的区别
+  - `null`
+  1. `Number(null)` 得到 0
+  2. 作为函数的参数，表示该参数不是对象
+  3. 作为原型链的终点
+  - `undefined`
+  1. `Number(undefined)` 得到 `NaN`
+  2. 变量已声明但是没有赋值时为 `undefined`
+  3. 调用函数时，未传入参数时，改值为 `undefined`
+  4. 访问对象的属性不存时，值为 `undefined`
+  5. 函数没有返回值，默认返回 `undefined`
 ### JavaScript 引用类型
 Function，Object，Array，Date，RegExp,Map,Set,WeakMap,WeakSet
+### 类型判断
+  - typeof 判断基础类型，不能精准判断引用类型
+  - instanceof 判断某个对象的原型是否是这个类型的原型
+  - Object.prototype.toString.call(obj) 基础类型和引用类型都能判断
+### this的指向
+this总是指向调用函数的对象
+  - 普通函数调用时，严格模式指向undefined,普通模式指向全局变量
+  - 对象的方法调用时，指向对象
+  - 箭头函数调用时，指向函数定义的上下文中的this
+  - 被call，apply ，bind 函数转换后的函数指向绑定的对象
+  - 实例化构造函数时，指向实例对象 
+### 执行上下文
+JavaScript 中有三种执行上下文，执行上文中包含 活动对象，this ，作用域链
+- 全局执行上下文
+- 函数执行上下文
+- eval 函数执行上下文
+### 执行栈
+执行栈，也就是在其它编程语言中所说的 “调用栈”，是一种拥有 LIFO（后进先出）数据结构的栈，被用来存储代码运行时创建的所有执行上下文。
+### 函数式编程
+- 函数式编程特点
+1. 函数优先
+2. 便于垃圾回收
+3. 数据不可变
+4. 无状态
+5. 无副作用
+### JavaScript 模块化
+- CommonJS AMD CMD UMD ES6 Module
+## DOM
+### DOM 操作常用API 
+- DOM元素增删改查
+  - document.createElement(tag) 根据标签名创建一个元素
+  - Node.innterHTML= html 重新设置节点的html
+  - Node.insertBefore(node) 在当前节点前插入一个元素
+  - Node.appendChild(node) 将一个子节点追加到子节点末尾
+  - Node.removeChild(node) 移除某个子节点
+  - document.querySelector(selectors) 获取某个匹配选择器的第一个DOM元素
+  - document.querySelectorAll(selectors) 获取某个匹配选择器的所有DOM元素
+  - document.getElementById(id) 根据id获取DOM元素
+  - document.getElementsByClassName(className) 根据类名获取DOM元素
+  - document.getElementsByTagName(tag) 根据标签名获取DOM元素
+  - document.getElementsByName(name) 根据name获取DOM元素
+### DOM 事件
+- `DOM 2` 事件流的三个阶段
+  - 事件捕获阶段
+  - 事件目标阶段
+  - 事件冒泡阶段
+- addEventListener
+  语法：`target.addEventListener(type,listener,options/useCapture)`
+  - `type` 事件类型
+  - `listener` 事件回调函数
+  - `options` 一个指定`listener`属性的可选选项；
+  `capture`(事件是否在捕获阶段执行)；
+  `once`(事件回调函数只执行一次)；
+  `passive`(是否默认执行默认动作，为true时，调用preventDefault()也不能阻止)
+  - `event.stopPropagation` 阻止事件冒泡
+  - `event.preventDefault`  阻止默认事件
+- mouseover 和 mouseenter 区别
+  - mouseover  鼠标移入本身或子元素上都会触发
+  - mouseenter 鼠标移入到本身元素才会触发
+- 小知识
+  - 并不是所有的元素都会冒泡，`blur focus mouseenter mouseleave`都不会冒泡
+### DOM 元素的位置和大小
+  - client 系列
+    - clientHeight 元素可视区域的高度，不包含边框，滚动条的高度
+    - clientWidth  元素可视区域的宽度，不包含边框，滚动条的宽度
+    - clientTop    元素的上边框的高度
+    - clientLeft   元素的左边框的宽度
+    - 对于 inline   元素都为0
+  - offset 系列
+    - offsetHeight 元素可视区域的高度，包含边框，滚动条的高度
+    - offsetWidth  元素可视区域的宽度，包含边框，滚动条的高度
+    - offsetTop    元素顶部距离最近定位父元素顶部的距离,和有没有滚动条没有关
+    - offsetLeft   元素顶部距离最近定位父元素左边的距离,和有没有滚动条没有关
+  - scroll 系列
+    - scrollHeight 元素全部的高度，包含边框，滚动条，隐藏的高度
+    - scrollWidth  元素全部的宽度，包含边框，滚动条，隐藏的宽度
+    - scrollTop    元素可视区域顶部到元素的顶部的高度
+    - scrollLeft   元素可视区域左侧到元素的左侧的宽度
+### DOM元素拖拽
+  - 通过 mousedown,mouseup,mousemove 实现
+  - 通过 HTML5 Drag 和 Drop 实现
