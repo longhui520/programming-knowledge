@@ -87,6 +87,56 @@ CSS 是指层叠样式表(Cascading Style Sheets)
 脱离文档流的2种方式
 - `float:left/right` 
 - `position:fixed/absolute`
+### 回流/重排和重绘
+  当渲染树的元素的位置，尺寸，布局，显示隐藏改变而需要重新构建，这个构成叫重排
+  何时发生重排
+  - 添加或删除可见的DOM元素
+  - 元素的位置发生变化
+  - 元素的尺寸发生变化
+  - 内容发生变化
+  - 激活伪类
+  - 切换类名
+  - 页面初始化
+  - 浏览器resize
+  - 计算offsetWidth 和 OffsetHeight
+  当渲染树种的元更新新属性，这些属性只是影响元素的外观，风格等 这个过程叫重绘。
+  重排和重绘
+  重排一定引起重绘，重绘不一定会重排
+### 块级格式化上下文（BFC）
+BFC 布局规则 是页面上一个独立隔离的容器，容器内的元素不会影响容器外的元素，而且容器外的元素不会影响容器内
+BFC的特点
+- BFC里的子元素垂直排列
+- BFC里的子元素的左边与包括块元素的左边接触
+- BFC里的浮动元素计算宽高
+- BFC区域不会与浮动元素重叠（用来清除浮动）
+- 同一个BFC里的子元素margin垂直方向上合并
+BFC触发条件
+- 根元素
+- float 属性不为none
+- display 属性为 inline-block table-cell，inline-flex，flex
+- position属性不为 static，relactive
+- overflow 不为 visiable
+### 层叠上下文
+层叠上下文（stacking context）是HTML中的一个三维的概念，每个元素的位置是三维的，分别是平面画布上的
+X轴，Y轴，以及表示层叠的Z轴
+触发条件
+- 根元素
+- position 不为static，z-index不为auto
+- CSS3属性
+  - flex z-index 不为auto
+  - transform 不为none
+  - opacity 小于1
+  - filter 不为 none
+  - will-change
+  - -webkit-overflow-scroll 属性为touch
+  - mix-blend-mode
+  - perspectie 不为 normal
+七层层叠等级
+`z-index>0,z-index=0|auto,行内元素，浮动元素 块级元素，z-index<0,背景和边框`
+同一个上下文中按照上面顺序显示，同一个层次则后面覆盖前面，不同层则安装上级层叠上下文比较。
+
+
+
 ## JavaScript
 ### JavaScript 基本类型
 number,string,boolean,null,undefined,Symbol,bigInt
