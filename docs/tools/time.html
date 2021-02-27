@@ -20,7 +20,7 @@
       margin-top: 80px;
     }
     #time{
-      font-size: 68vh;
+      font-size: 60vh;
       line-height: 1;
     }
   </style>
@@ -36,7 +36,7 @@
       var seconds = d.getSeconds()
       document.querySelector("#time").innerHTML=d.toString().slice(16,21)
       var m = d.getMonth()+1
-      var r = d.getDay()
+      var r = d.getDate()
       m = m>10?m:'0'+m
       r = r>10?r:'0'+r
       document.querySelector("#day").innerHTML=m+"月"+r+"日"
