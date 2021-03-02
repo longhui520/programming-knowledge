@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "art-template": "^4.13.2",
+    "axios": "^0.21.1",
     "pretty": "^2.0.0"
   }
 }

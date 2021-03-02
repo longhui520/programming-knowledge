@@ -1,3 +1,6 @@
-"use strict";
-eval("var msg = 'hello world';");
-    console.log(msg);  // Reference Error: msg is not defined
+const fs =require("fs")
+const f = fs.readFileSync('/Users/longhui/code/study/github/weekly/docs/issue-1.md')
+
+function getP(str){
+  const reg = /##\s* 新闻/
+}

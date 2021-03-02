@@ -15,7 +15,7 @@ module.exports = {
           }
         ]
       },
-      { text: '常用工具', link: '/tools/' },
+      { text: '导航', link: '/tools/' },
       { text: '代码片段', link: '/snippet/'},
       {
         text: '学习文章', items: [

@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-## 搜索网址
+## 搜索引擎
 <div class="link-block">
   <a class="link-item" href="http://www.baidu.com/" target="_blank">
     <p class="title">百度</p>
@@ -25,6 +25,10 @@ sidebar: auto
 
 ## 技术文档
 <div class="link-block">
+  <a class="link-item" href="https://devdocs.io/" target="_blank">
+    <p class="title">文档集合</p>
+    <p class="intro">汇聚了各种项目的文档</p>
+  </a>
   <a class="link-item" href="https://cn.vuejs.org/" target="_blank">
     <p class="title">Vue</p>
     <p class="intro">渐进式JavaScript 框架</p>
@@ -33,14 +37,18 @@ sidebar: auto
     <p class="title">art-template</p>
     <p class="intro">模板引擎</p>
   </a>
-
-</div>
-
-## 技术教程
-<div class="link-block">
   <a class="link-item" href="http://www.ruanyifeng.com/blog/2016/07/yaml.html" target="_blank">
     <p class="title">YAML 语言教程</p>
     <p class="intro">YAML 是专门用来写配置文件的语言，非常简洁和强大，远比 JSON 格式方便</p>
+  </a>
+
+</div>
+
+## 技术团队
+<div class="link-block">
+  <a class="link-item" href="http://www.alloyteam.com/" target="_blank">
+    <p class="title">腾讯 Web 前端团队</p>
+    <p class="intro">腾讯 Web 前端团队 - Alloy Team 来自于腾讯 SNG(社交网络事业群)</p>
   </a>
 
 </div>
