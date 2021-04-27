@@ -1,6 +1,6 @@
 {
   "name": "programming-knowledge",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a collection of programming knowledge",
   "main": "index.js",
   "scripts": {
