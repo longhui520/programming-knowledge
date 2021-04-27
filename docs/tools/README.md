@@ -44,11 +44,23 @@ sidebar: auto
 
 </div>
 
-## 技术团队
+## 技术博客
 <div class="link-block">
+  <a class="link-item" href="http://www.ruanyifeng.com/" target="_blank">
+    <p class="title">阮一峰</p>
+    <p class="intro">阮一峰博客</p>
+  </a>
   <a class="link-item" href="http://www.alloyteam.com/" target="_blank">
     <p class="title">腾讯 Web 前端团队</p>
     <p class="intro">腾讯 Web 前端团队 - Alloy Team 来自于腾讯 SNG(社交网络事业群)</p>
+  </a>
+  <a class="link-item" href="https://hellogithub.com/" target="_blank">
+    <p class="title">分享 GitHub 上有趣、入门级的开源项目</p>
+    <p class="intro">分享 GitHub 入门级、有趣的开源项目。推广自己的开源项目、编程实践项目、适合练手的开源项目、HelloGitHub月刊</p>
+  </a>
+  <a class="link-item" href="http://13blog.site/" target="_blank">
+    <p class="title">我是十三</p>
+    <p class="intro">personal blog是SpringBoot2+Thymeleaf+Mybatis建造的个人博客网站.SpringBoot实战博客源码.个人博客搭建</p>
   </a>
 
 </div>
@@ -58,6 +70,15 @@ sidebar: auto
   <a class="link-item" href="https://css-tricks.com//" target="_blank">
     <p class="title">css tricks</p>
     <p class="intro">关于css样式说明</p>
+  </a>
+
+</div>
+
+## 开发工具
+<div class="link-block">
+  <a class="link-item" href="http://ctools.top/" target="_blank">
+    <p class="title">测试数据生成</p>
+    <p class="intro">统一社会信用代码，身份证号码的生成</p>
   </a>
 
 </div>

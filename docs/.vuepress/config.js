@@ -8,7 +8,7 @@ module.exports = {
       { 
         text: '前端',items:[
           {
-            text:'前端基础',link: '/main/'
+            text:'前端基础',link: '/main/basic'
           },
           {
             text:'vue',link: '/main/vue'
