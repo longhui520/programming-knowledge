@@ -15,6 +15,12 @@ module.exports = {
           }
         ]
       },
+      {
+        text: '编程工具',
+        items:[
+          { text: 'git',link:'/git/'}
+        ]
+      },
       { text: '导航', link: '/tools/' },
       { text: '代码片段', link: '/snippet/'},
       {
