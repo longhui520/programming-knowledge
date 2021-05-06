@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "node ./src/tools/index.js && vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "create:tools": "node ./src/tools/index.js"
+    "create:tools": "node ./src/tools/index.js",
+    "test2":"node ./src/spider/weekly.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "dependencies": {
     "art-template": "^4.13.2",
     "axios": "^0.21.1",
+    "express": "^4.17.1",
     "pretty": "^2.0.0"
   }
 }
