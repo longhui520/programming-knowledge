@@ -47,4 +47,23 @@
 # 查看所有配置，并且显示来源
 # git config --list --show-origin
 ```
+8. 修改分支名称
+```bash
+# 修改本地分支名称
+git branch -m oldName newName
+# 删除远程分支名称
+git push --delete origin oldName
+# 本地分支推送到远程
+git push origin newName
+# 建立本地分支与远程分支关联
+git branch --set-upstream-to origin/newName
+```
+9. 本地分支与远程分支的关联
+```bash 
+git branch --set-upstream newName origin/newName
+git push --set-upstream orgin newName
+git branch -vv
+git remote show origin
+cat .git/config
+```
 [参考文章](https://www.jianshu.com/p/c2ec5f06cf1a)
