@@ -34,3 +34,5 @@
 - [重绘与回流](https://juejin.im/post/6844903734951018504)
 - [利用 SSH 完成 Git 与 GitHub 的绑定](https://blog.csdn.net/qq_35246620/article/details/69061355)
 - [XState 状态机](https://lecepin.github.io/xstate-docs-cn/zh/)
+- [husky7.0.1 + commitlint 配置提交代码检查和规范踩坑指南](https://juejin.cn/post/6988116616923840549)
+- [防止重复请求的思考](https://www.zhihu.com/question/19805411/answer/15465427)
