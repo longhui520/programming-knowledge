@@ -36,3 +36,7 @@
 - [XState 状态机](https://lecepin.github.io/xstate-docs-cn/zh/)
 - [husky7.0.1 + commitlint 配置提交代码检查和规范踩坑指南](https://juejin.cn/post/6988116616923840549)
 - [防止重复请求的思考](https://www.zhihu.com/question/19805411/answer/15465427)
+- [带你入门前端工程化](https://woai3c.github.io/introduction-to-front-end-engineering/#%E7%AE%80%E4%BB%8B)
+- [JavaScript 二十年](https://cn.history.js.org/)
+- [凤凰架构](https://icyfenix.cn/)
+- [推荐开源电子书](https://www.zhihu.com/question/38836382/answer/2290523794)
