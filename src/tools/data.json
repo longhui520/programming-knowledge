@@ -46,6 +46,11 @@
         "href": "http://www.ruanyifeng.com/blog/2016/07/yaml.html",
         "title": "YAML 语言教程",
         "intro": "YAML 是专门用来写配置文件的语言，非常简洁和强大，远比 JSON 格式方便"
+      },
+      {
+        "href": "https://juejin.cn/post/6844904183460528142",
+        "title": "开发工具箱",
+        "intro": "开发工具箱"
       }
     ]
   },
@@ -70,7 +75,7 @@
         "title":"我是十三",
         "intro":"personal blog是SpringBoot2+Thymeleaf+Mybatis建造的个人博客网站.SpringBoot实战博客源码.个人博客搭建"
       }
-    ] 
+    ]
   },
   {
     "groupName":"css技巧",
