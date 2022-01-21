@@ -40,3 +40,5 @@
 - [JavaScript 二十年](https://cn.history.js.org/)
 - [凤凰架构](https://icyfenix.cn/)
 - [推荐开源电子书](https://www.zhihu.com/question/38836382/answer/2290523794)
+- [如何优雅的控制全局loading的显示？](https://juejin.cn/post/7047767755054907423)
+- [100个js工具库](https://mp.weixin.qq.com/s/AjNf21vV44hWx84Oeh379w)
