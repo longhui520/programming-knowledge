@@ -42,3 +42,8 @@
 - [推荐开源电子书](https://www.zhihu.com/question/38836382/answer/2290523794)
 - [如何优雅的控制全局loading的显示？](https://juejin.cn/post/7047767755054907423)
 - [100个js工具库](https://mp.weixin.qq.com/s/AjNf21vV44hWx84Oeh379w)
+- [从浏览器渲染原理谈动画性能优化](https://mp.weixin.qq.com/s/OkXYnWyPcKjNWSn0T2d_bg)
+- [5 个可以拓展全栈技能的开源项目](https://juejin.cn/post/7056400428778389535)
+- [防御式CSS是什么？这几点属性重点防御](https://juejin.cn/post/7056925805976223751)
+- [TypeScript 类型体操天花板，用类型运算写一个 Lisp 解释器](https://zhuanlan.zhihu.com/p/427309936)
+- [接近天花板的TS类型体操，看懂你就能玩转TS了](https://juejin.cn/post/7061556434692997156#heading-112)
