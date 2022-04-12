@@ -369,3 +369,42 @@ const a = new Promise((resolve)=>{
 })
 a.then(value=>console.log(value))
 ```
+## 元转分
+```typescript
+export function yuanToFen (source:number|string): number {
+  source = source.toString()
+  let isNegtive = false
+  if (source.indexOf('-') === 0) {
+    isNegtive = true
+    source = source.substr(1)
+  }
+  if (source.toString().length < 1) {
+    return 0
+  }
+  const split = source.toString().split('.')
+  const yuan = split[0]
+  let fen = ''
+  if (split.length > 1) {
+    fen = split[1]
+  }
+
+  let res = isNegtive ? -1 : 1
+  switch (fen.length) {
+    case 0:
+      return parseInt(yuan) * 100 * res
+    case 1:
+      return (parseInt(yuan) * 100 + parseInt(fen) * 10) * res
+    default:
+      return (parseInt(yuan) * 100 + Math.floor(parseInt(fen) / Math.pow(10, fen.length - 2))) * res
+  }
+}
+```
+## 分转元
+```typescript
+export function fenToYuan (source:number|string):number {
+  if (typeof source === 'string') {
+    source = parseInt(source)
+  }
+  return parseFloat((source / 100).toFixed(2))
+}
+```
