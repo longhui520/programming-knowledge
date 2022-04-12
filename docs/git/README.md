@@ -66,4 +66,11 @@ git branch -vv
 git remote show origin
 cat .git/config
 ```
+10. 查看提交记录
+```bash
+# 显示整个提交记录，但是跳过任何合并内容
+git log --no--merges
+
+```
+
 [参考文章](https://www.jianshu.com/p/c2ec5f06cf1a)
