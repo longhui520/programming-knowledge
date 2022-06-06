@@ -69,7 +69,8 @@ cat .git/config
 10. 查看提交记录
 ```bash
 # 显示整个提交记录，但是跳过任何合并内容
-git log --no--merges
+git log --no-merges
+git log --first-parent
 
 ```
 
