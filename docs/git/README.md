@@ -1,4 +1,48 @@
-# git
+---
+sidebar: auto
+---
+# git 常用命令
+## 变量对照
+| 名称 | 含义|
+| --- | --- |
+| remoteName | 远程仓库名 |
+| branchName | 分支名称(本地和远程分支同名) |
+| localBranchName | 本地分支名称 |
+| remoteBranchName | 远程分支名称 |
+## 分支的关联与取消
+### 关联分支
+```bash
+git branch --set-upstream-to=remoteName/branchName localBranchName
+```
+### 推送时关联
+```bash
+# 不要求远程分支存在，没有远程分支时，远程自动建立一个和本地分支一样名称的分支
+git push -u remoteName branchName
+git push -u remoteName localBranchName:remoteBranchName
+```
+### 取消关联分支
+```bash
+git branch --unset-upstream-to=localBranchName
+```
+
+## 查看分支
+### 查看本地分支
+```bash
+git branch -v
+```
+### 查看本地分支与远程的关联情况
+
+```bash
+git branch -vv
+```
+## 查看提交记录
+```bash
+# 显示整个提交记录，但是跳过任何合并内容
+git log --no-merges
+git log --first-parent
+
+```
+## 杂项
 1. 本地工作区文件恢复
 将工作区的内容删除后，重新检出文件，就可以恢复文件(未放入暂存区的内容不可恢复)
 ```bash
@@ -66,12 +110,6 @@ git branch -vv
 git remote show origin
 cat .git/config
 ```
-10. 查看提交记录
-```bash
-# 显示整个提交记录，但是跳过任何合并内容
-git log --no-merges
-git log --first-parent
-
-```
 
 [参考文章](https://www.jianshu.com/p/c2ec5f06cf1a)
+
