@@ -18,23 +18,29 @@ function getJson(text,id){
       title = one.match(/(?<=\[)[\s\S]*?(?=\])/g)
       url = one.match(/(?<=\()[\s\S]*?(?=\))/g)
     }catch(e){
-      console.log(item)
+      console.log(e)
     }
    
     return {title:String(title),url:String(url),dec:two,id:id}
   })
   return res
 }
+
+const get = async (i)=> {
+  return axios.get(`https://raw.githubusercontent.com/ruanyf/weekly/master/docs/issue-${i}.md`).catch(e=>{
+    console.log('重试中',e)
+    return get(i)
+  })
+}
 async function createJSON(){
   let arr = []
-  for(let i =1;i<156;i++){
+  for(let i =1;i<205;i++){
+    const res = await get(i)
     console.log(i)
-    const res = await axios.get(`https://raw.githubusercontent.com/ruanyf/weekly/master/docs/issue-${i}.md`)
     const json = getJson(res.data)
     arr = arr.concat(json)
     
   }
-  console.log('111')
   fs.writeFileSync('.data.json',JSON.stringify(arr))
 }
 createJSON()
