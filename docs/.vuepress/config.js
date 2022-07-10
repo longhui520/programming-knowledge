@@ -18,7 +18,8 @@ module.exports = {
       {
         text: '编程工具',
         items:[
-          { text: 'git',link:'/git/'}
+          { text: 'git',link:'/git/'},
+          { text: 'linux',link:'/linux/'}
         ]
       },
       { text: '导航', link: '/tools/' },
