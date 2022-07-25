@@ -79,6 +79,10 @@ sidebar: auto
     <p class="title">后盾人</p>
     <p class="intro">在线文档</p>
   </a>
+  <a class="link-item" href="https://r2coding.com" target="_blank">
+    <p class="title">编程自学之路</p>
+    <p class="intro">在线文档</p>
+  </a>
 
 </div>
 
