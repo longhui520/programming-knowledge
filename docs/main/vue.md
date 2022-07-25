@@ -1,4 +1,12 @@
 # vue 
+## vue使用技巧
+### 透传插槽(vue2+)
+```
+ <slot v-for="(_, name) in $slots" :name="name" :slot="name" />
+  <template v-for="(_, name) in $scopedSlots" :slot="name" slot-scope="slotData">
+    <slot :name="name" v-bind="slotData" />
+  </template>
+```
 ## vue性能优化
 - 展示类组件使用函数式组件
   当一个组件只依赖父组件传入值的时候，并且没有自己的状态和事件时，特别时候适合函数式组件。
