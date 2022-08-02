@@ -5,10 +5,13 @@ module.exports = {
   themeConfig: {
     logo: '/assets/images/logo.png',
     nav: [
-      { 
+      {
         text: '前端',items:[
           {
             text:'前端基础',link: '/main/basic'
+          },
+          {
+            text:'微前端',link: '/main/micro-front-end'
           },
           {
             text:'vue',link: '/main/vue'
