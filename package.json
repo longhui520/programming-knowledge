@@ -4,11 +4,10 @@
   "description": "a collection of programming knowledge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "create:tools": "node ./src/tools/index.js",
-    "test2": "node ./src/spider/weekly.js"
+    "weekly": "node ./src/spider/weekly.js"
   },
   "repository": {
     "type": "git",
