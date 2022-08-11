@@ -8,6 +8,10 @@ sidebar: auto
     <p class="title">编码导航</p>
     <p class="intro">程序员专用导航网站</p>
   </a>
+  <a class="link-item" href="https://cxy521.com/" target="_blank">
+    <p class="title">程序员一站导航</p>
+    <p class="intro">程序员一站导航</p>
+  </a>
 
 </div>
 
